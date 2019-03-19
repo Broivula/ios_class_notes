@@ -23,4 +23,14 @@ print(a2 ?? "doesn't have a value")\
 - guard let safeCar = ccar3 else \{ print("didnt work")\}\
 \
 - the first ("official") initializer is called designated init and secondary init (which always has to call self.init , the main initializer) is known as conviniece init\
-}
+\
+- swift has single inheritance which means it can inherit only one base class\
+- but class can have multiple interfaces (known as protocols in swift)\
+\
+- you can cast a class into one of its superclasses up the tree\
+\
+- struct is kinda like class, but it has no inheritance and variables are not references but can be thought to "contain" the whole struct\
+Why use a struct instead of a class?\
+ a: it's a matter of programming style.\
+remember value type vs reference type!!\
+- struct sort of copies the memory "bubble", instead of traditional class which moves the pointer if car1=car2}
