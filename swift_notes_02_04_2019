@@ -1,0 +1,30 @@
+enum
+
+enum is a value type in which you can list discrete values
+enumeration can be made iterable:
+
+enum Grade1: CaseIterable {
+	case Fail, Pass, Good, Excellent
+}
+
+enumerations can also have methods, just like classes and structs
+
+sidenote about structs: teacher recommended to default to using classes instead of structs. only use structs if you have a strong case for it
+
+lazy stored properties are only computed when they get called
+
+generics
+
+generic types are like arrays, sets and maps
+you can give a class a generic type as well class Test <Int>
+
+personal note: look up covariance and contravariance
+
+
+memory management - ARC
+
+memory management in Swift is implemented in a bit different way compare to JVM -- instead of performing periodic garbage collenction, in Swift
+objects with no reference can be deallocated immeadiaetly
+
+remember the school example! strong and weak references (weak red / strong blue)
+
