@@ -1,0 +1,34 @@
+next exam is going to be a bit harder --remember to study yo
+
+- tuples
+ - can contain any types
+  -> even different ones in one tuple
+ - problems with tuple is that it might make the code a bit unreadable, since tuple.something --the something part could be pretty much anythinh
+ -> could be a stored property, computed property or a member of a tuple
+
+
+- string
+ - string is a value type -> gets copied when passed or assigned
+ - substrings are not copied -> until they are assigned
+
+- algorithms
+ - usually when talking about algorithm they talk about timecomplexity -> how many steps does it need to be done
+ - run manually with pen and paper first
+ - an average fast timecomplexity for sorting algorithm is n^2  but you can be faster --> quicksort is n log n (Tony Hoare)
+ - insertion sort is the n^2
+ - quicksort is n log n 
+
+ - big Oh notation
+  -> should give the upper bound of the given problem
+ - omega lower bound -> theta tight bound
+ 
+
+ -shuffle algortihm
+ - the normal algorithm might have a bias 
+ -> the fisher-yates version solves the bias by switching values only to the left of the index
+
+
+ ADT's - Abstract Data Types
+ - an example of ADT is queue, it has mehtods enqueue and dequeue for adding and removing elements
+  -> the behaviour of the queue is FIFO first-in, first-out
+ - linked list is one of the most common abstract data types 
